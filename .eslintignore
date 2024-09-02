@@ -1,0 +1,87 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore build directories
+dist
+build
+
+# Ignore Vite specific directories and files
+.vite
+.vite_cache
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+*.log
+
+# Ignore IDE and editor configuration files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore public directory
+public
+
+# Ignore Tailwind CSS configuration files
+tailwind.config.js
+tailwind.config.cjs
+tailwind.config.ts
+
+# Ignore PostCSS configuration files
+postcss.config.js
+postcss.config.cjs
+postcss.config.ts
+
+# Ignore all configuration and metadata files
+*.config.js
+*.config.cjs
+*.config.ts
+*.config.json
+*.config.yml
+
+# Ignore test coverage directory
+coverage
+
+# Ignore compiled TypeScript build info file
+*.tsbuildinfo
+
+# Ignore images and other binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+
+# Ignore specific file types
+*.min.js
+*.min.css
+
+# Ignore linting configuration files to avoid self-linting
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.eslintrc.yml
+.eslintignore
+.prettierrc
+.prettierrc.js
+.prettierrc.json
+.prettierrc.yml
+.prettierignore
+
+# Ignore assets directory
+assets
+
+# Ignore static files directory
+static

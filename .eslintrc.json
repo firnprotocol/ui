@@ -1,0 +1,60 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "ignorePatterns": ["**.*.js"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    // Prettier should be at last to avoid formatting and linting conflicts
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "simple-import-sort"],
+  "rules": {
+    // Required for auto-sorting imports
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    // Can be safely turned off after React v17+
+    "react/react-in-jsx-scope": "off",
+    // Industry standards
+    "arrow-body-style": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "no-nested-ternary": "off",
+    "react/require-default-props": "off",
+    "react/no-unescaped-entities": "warn",
+    "react/no-array-index-key": "warn",
+    "no-underscore-dangle": "off",
+    "react/prop-types": "off",
+    // Firn specific rules, mainly for crypto operations
+    "no-bitwise": "off",
+    "no-plusplus": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": true,
+      "node": true
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "firn",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.11",
+    "@heroicons/react": "^2.0.15",
+    "@tailwindcss/typography": "^0.5.2",
+    "@tanstack/query-core": "^5.17.9",
+    "@tanstack/react-query": "^5.14.2",
+    "@uniswap/v3-core": "^1.0.1",
+    "@wagmi/connectors": "^5.1.8",
+    "@wagmi/core": "^2.6.1",
+    "boring-avatars": "^1.5.8",
+    "lit-html": "^3.1.1",
+    "mcl-wasm": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.2.0",
+    "viem": "^2.7.10",
+    "wagmi": "^2.5.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "globals": "^15.6.0",
+    "postcss": "^8.4.33",
+    "prettier": "^3.3.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^7.13.1",
+    "vite": "^5.0.8",
+    "vite-plugin-favicons-inject": "^2.2.0",
+    "vite-tsconfig-paths": "^4.3.1"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.9.6",
+    "sharp": "^0.33.2"
+  }
+}
